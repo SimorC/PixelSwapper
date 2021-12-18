@@ -11,3 +11,16 @@ Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\obj\Debug\netcoreapp3.1\PixelSwa
 Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\obj\Debug\netcoreapp3.1\PixelSwapper.App.dll
 Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\obj\Debug\netcoreapp3.1\PixelSwapper.App.pdb
 Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\obj\Debug\netcoreapp3.1\PixelSwapper.App.genruntimeconfig.cache
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\appsettings.json
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\obj\Debug\netcoreapp3.1\PixelSwapper.App.csproj.CopyComplete
