@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PixelSwapper.Service\PixelSwapper.Service.csproj" />
+    <ProjectReference Include="..\PixelSwapper.Domain\PixelSwapper.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

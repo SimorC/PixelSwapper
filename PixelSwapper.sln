@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelSwapper.Service", "PixelSwapper.Service\PixelSwapper.Service.csproj", "{CCB4C1A5-C9A2-414B-87E0-37A4EE4D9CDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelSwapper.Domain", "PixelSwapper.Domain\PixelSwapper.Domain.csproj", "{CCB4C1A5-C9A2-414B-87E0-37A4EE4D9CDE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelSwapper.App", "PixelSwapper.App\PixelSwapper.App.csproj", "{09A3A909-7E1A-413C-AF29-1684334B326D}"
 EndProject

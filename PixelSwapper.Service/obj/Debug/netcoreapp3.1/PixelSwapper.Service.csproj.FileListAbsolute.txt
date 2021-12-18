@@ -1,9 +1,0 @@
-Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.Service\bin\Debug\netcoreapp3.1\PixelSwapper.Service.deps.json
-Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.Service\bin\Debug\netcoreapp3.1\PixelSwapper.Service.dll
-Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.Service\bin\Debug\netcoreapp3.1\PixelSwapper.Service.pdb
-Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.Service\obj\Debug\netcoreapp3.1\PixelSwapper.Service.csprojAssemblyReference.cache
-Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.Service\obj\Debug\netcoreapp3.1\PixelSwapper.Service.AssemblyInfoInputs.cache
-Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.Service\obj\Debug\netcoreapp3.1\PixelSwapper.Service.AssemblyInfo.cs
-Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.Service\obj\Debug\netcoreapp3.1\PixelSwapper.Service.csproj.CoreCompileInputs.cache
-Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.Service\obj\Debug\netcoreapp3.1\PixelSwapper.Service.dll
-Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.Service\obj\Debug\netcoreapp3.1\PixelSwapper.Service.pdb

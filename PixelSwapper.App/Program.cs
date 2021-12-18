@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
-using PixelSwapper.Service;
+using PixelSwapper.Domain;
 using System;
 
 namespace PixelSwapper.App
@@ -11,6 +11,7 @@ namespace PixelSwapper.App
 
         private static string _defaultFileName;
         private static string _defaultInPath;
+        private static string _defaultOutPath;
         private static string _defaultFileFullPath;
 
         private static void Startup()
@@ -30,6 +31,7 @@ namespace PixelSwapper.App
             // Set values
             _defaultFileName = _config["DefaultFileName"];
             _defaultInPath = _config["DefaultInFolder"];
+            _defaultOutPath = _config["DefaultOutFolder"];
             _defaultFileFullPath = _defaultInPath + _defaultFileName;
         }
 
@@ -55,6 +57,10 @@ namespace PixelSwapper.App
             {
                 var image = IOService.LoadImage(_defaultFileFullPath);
                 LogHelper.LogImageLoad(image);
+
+                var colours = _imageService.GetImagePixelColours(image);
+                _imageService.CreateEmptyImage(_defaultOutPath, 100, 100, BrushColour.LighterGray);
+                Console.WriteLine("Image created");
             }
             catch (System.IO.FileNotFoundException ex)
             {
