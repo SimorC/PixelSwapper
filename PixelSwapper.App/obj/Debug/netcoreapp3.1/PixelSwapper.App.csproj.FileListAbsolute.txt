@@ -1,0 +1,13 @@
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\PixelSwapper.App.exe
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\PixelSwapper.App.deps.json
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\PixelSwapper.App.runtimeconfig.json
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\PixelSwapper.App.runtimeconfig.dev.json
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\PixelSwapper.App.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\PixelSwapper.App.pdb
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\obj\Debug\netcoreapp3.1\PixelSwapper.App.csprojAssemblyReference.cache
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\obj\Debug\netcoreapp3.1\PixelSwapper.App.AssemblyInfoInputs.cache
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\obj\Debug\netcoreapp3.1\PixelSwapper.App.AssemblyInfo.cs
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\obj\Debug\netcoreapp3.1\PixelSwapper.App.csproj.CoreCompileInputs.cache
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\obj\Debug\netcoreapp3.1\PixelSwapper.App.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\obj\Debug\netcoreapp3.1\PixelSwapper.App.pdb
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\obj\Debug\netcoreapp3.1\PixelSwapper.App.genruntimeconfig.cache
