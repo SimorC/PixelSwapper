@@ -24,3 +24,10 @@ Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\System.R
 Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
 Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\obj\Debug\netcoreapp3.1\PixelSwapper.App.csproj.CopyComplete
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\PixelSwapper.Service.dll
+Z:\Dropbox\PC\src\PixelSwapper\PixelSwapper.App\bin\Debug\netcoreapp3.1\PixelSwapper.Service.pdb

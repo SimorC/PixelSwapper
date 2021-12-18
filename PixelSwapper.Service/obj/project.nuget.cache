@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EvQRLWRtDI3v9CmrQDBP9Ad3HPnvFGL1Rl4z/ZXSLlrEzcmAoI6yEowIby74GDajxe7xm5ZzEbLUFf2JoMYLfQ==",
+  "dgSpecHash": "HbNwb+H184Mh0aXGD/XRn8NUI/GvsYWVQL2XTaPo25IgBsWESsn58rqqK2hu/VgmeCKM9uPGzUqFLAJxBHl+/g==",
   "success": true,
   "projectFilePath": "Z:\\Dropbox\\PC\\src\\PixelSwapper\\PixelSwapper.Service\\PixelSwapper.Service.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rafae\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\rafae\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

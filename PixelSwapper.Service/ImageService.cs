@@ -2,7 +2,8 @@
 
 namespace PixelSwapper.Service
 {
-    public class Class1
+    public class ImageService : IImageService
     {
+
     }
 }
