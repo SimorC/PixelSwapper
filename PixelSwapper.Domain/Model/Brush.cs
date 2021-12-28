@@ -28,6 +28,8 @@ namespace PixelSwapper.Domain
         }
         public static SolidBrush EnumToBrush(BrushColour colour)
             => HexToBrush(EnumToHex(colour));
+        public static SolidBrush ColorToBrush(Color colour)
+            => new SolidBrush(colour);
     }
 
     public enum BrushColour

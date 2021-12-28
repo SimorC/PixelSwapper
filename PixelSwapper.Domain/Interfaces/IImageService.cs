@@ -9,7 +9,6 @@ namespace PixelSwapper.Domain
     {
         Color[,] GetImagePixelColours(Image image);
         Bitmap CreateEmptyImage(string path, int width, int height, BrushColour backgroundColour);
-        Bitmap WriteTextOnImage(bool[,] pixels, Bitmap image);
         Bitmap WriteTextOnImage(Color[,] pixels, Bitmap image);
     }
 }

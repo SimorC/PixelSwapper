@@ -13,6 +13,8 @@ namespace PixelSwapper.App
         private static string _defaultInPath;
         private static string _defaultOutPath;
         private static string _defaultFileFullPath;
+        private static float _finalSizeIncrease;
+        private static int _finalSizePadding;
 
         private static void Startup()
         {
@@ -32,12 +34,18 @@ namespace PixelSwapper.App
             _defaultFileName = _config["DefaultFileName"];
             _defaultInPath = _config["DefaultInFolder"];
             _defaultOutPath = _config["DefaultOutFolder"];
+            _finalSizeIncrease = float.Parse(_config["FinalSizeIncrease"]);
+            _finalSizePadding = int.Parse(_config["FinalSizePadding"]);
             _defaultFileFullPath = _defaultInPath + _defaultFileName;
         }
 
         private static void StartServices()
         {
-            _imageService = new ImageService();
+            string fontName = _config["DefaultFont"];
+            string character = _config["DefaultSwapper"];
+            int fontSize = int.Parse(_config["DefaultFontSize"]);
+            
+            _imageService = new ImageService(fontName, character, fontSize, _finalSizeIncrease, _finalSizePadding);
         }
 
         static void Main(string[] args)
@@ -59,8 +67,14 @@ namespace PixelSwapper.App
                 LogHelper.LogImageLoad(image);
 
                 var colours = _imageService.GetImagePixelColours(image);
-                _imageService.CreateEmptyImage(_defaultOutPath, 100, 100, BrushColour.LighterGray);
+                var outImage = CreateOutImage(image);
                 Console.WriteLine("Image created");
+
+                outImage = _imageService.WriteTextOnImage(colours, outImage);
+                Console.WriteLine("Image modified");
+
+                IOService.SaveImage(_defaultOutPath, outImage);
+                Console.WriteLine("Image saved");
             }
             catch (System.IO.FileNotFoundException ex)
             {
@@ -70,6 +84,14 @@ namespace PixelSwapper.App
             {
                 Console.WriteLine($"Unexpected exception: {ex.Message}");
             }
-        }        
+        }
+
+        private static System.Drawing.Bitmap CreateOutImage(System.Drawing.Image image)
+        {
+            var sizeX = (int)(image.Width * _finalSizeIncrease) + _finalSizePadding;
+            var sizeY = (int)(image.Height * _finalSizeIncrease) + _finalSizePadding;
+
+            return _imageService.CreateEmptyImage(_defaultOutPath, sizeX, sizeY, BrushColour.LighterGray);
+        }
     }
 }

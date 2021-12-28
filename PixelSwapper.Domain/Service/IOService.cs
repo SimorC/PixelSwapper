@@ -17,6 +17,7 @@ namespace PixelSwapper.Domain
             CheckDirectoryExists(dirInfo);
 
             image.Save(path + fileName + ".png");
+            image.Dispose();
         }
 
         private static void CheckDirectoryExists(System.IO.DirectoryInfo dirInfo)
